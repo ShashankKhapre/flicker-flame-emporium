@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import Hero from "@/components/Hero";
 import Header from "@/components/Header";
@@ -42,13 +41,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Featured Products */}
-        <FeaturedProducts
-          title="Featured Products"
-          products={featuredProducts}
-          description="Our most popular and highly recommended candles"
-        />
-
         {/* About Section */}
         <section className="py-16 bg-secondary">
           <div className="container">
@@ -69,7 +61,10 @@ const Index = () => {
                   every detail to ensure a clean, long-lasting burn and captivating
                   fragrance experience.
                 </p>
-                <Button asChild>
+                <Button 
+                  asChild
+                  className="text-[#1a1a1a] hover:text-[#1a1a1a] bg-white hover:bg-white/90"
+                >
                   <Link to="/about">Learn More About Us</Link>
                 </Button>
               </div>
