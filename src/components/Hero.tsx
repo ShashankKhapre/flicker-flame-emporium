@@ -29,9 +29,6 @@ const Hero = () => {
             <Button size="lg" asChild>
               <Link to="/shop">Shop Collection</Link>
             </Button>
-            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-foreground" asChild>
-              <Link to="/about">Our Story</Link>
-            </Button>
           </div>
         </div>
       </div>
@@ -40,3 +37,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
